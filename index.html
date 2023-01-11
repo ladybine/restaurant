@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav
+      class="style-navebar navbar navbar-expand-lg position-fixed w-100 navbar-dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-uppercase fw-bold mx-4 py-3" href="#"
+          >Lorem ipsum</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-4">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="#">Decouvrir</a>
+            </li>
+
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="#" tabindex="-1">Les classiques</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="btn btn-order" rounder="0" href="#" tabindex="-1"
+                >passer la commande</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="banner d-flex justifycontent-center align-items-center p-4">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <h1 class="text-capitalize py-3 redressed banner-desc">
+              Lorem ipsum dolor sit amet <br />Ullam quod aliquid explicabo
+              voluptatem sit architecto
+            </h1>
+            <p>
+              <button class="btn btn-order rounder-0 btn-lg me-5">
+                Commander maintenant</button
+              ><button class="btn btn-outline-info rounder-0">Reserver</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="avaible py-5">
+      <div class="container">
+        <div class="row">
+          <div class="card mb-3 border-0 rounder-0">
+            <div class="row">
+              <div class="col-md-6">
+                <img
+                  src="./asset/banniere6.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <a href="#" class="text-muted btn"
+                      >Last updated 3 mins ago</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card my-5 border-0 rounder-0">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <a href="#" class="text-muted btn"
+                      >Last updated 3 mins ago</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div
+                  id="carouselExampleIndicators"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="./asset/carousel2.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./asset/carousel3.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./asset/carousel1.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 border-0 rounder-0">
+            <div class="row">
+              <div class="col-md-6">
+                <img
+                  src="./asset/banniere5.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <a href="#" class="text-muted btn"
+                      >Last updated 3 mins ago</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="style-menu">
+      <div class="container">
+        <div class="row text-light mb-5">
+          <h3 class="text-center text-light">Nos varieté</h3>
+          <div class="card text-center align-items-center bg-transparent">
+            <div class="card-header redressed f-4">
+              <ul
+                class="nav nav-tabs justifycontent-center align-items-center card-header-tabs"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="true" href="#"
+                    >Active</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="asset/carousel1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="asset/carousel2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-dm-none">
+            <div class="card">
+              <img src="asset/carousel3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-md-block d-sm-none">
+            <div class="card">
+              <img src="asset/carousel1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="style-caroussel bg-dark text-light text-center py-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="uppercase">Les delices</h1>
+          <div class="col py-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
+            ipsam esse sed, quo perferendis repellat quia nostrum perspiciatis
+            consequuntur sit doloribus corporis dolorem aut delectus itaque
+            animi velit? Voluptas, odit.
+          </div>
+        </div>
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active style-caroussel-img">
+              <img
+                src="asset/carousel2.jpg"
+                class="d-block w-55 style-caroussel-img"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="asset/carousel3.jpg"
+                class="d-block w-55 style-caroussel-img"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="asset/carousel1.jpg"
+                class="d-block w-55 style-caroussel-img"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="order-from text-center text-light mb-4">
+      <div class="container">
+        <h2 class="text-center text-light mb-4">Passer la commande</h2>
+        <form>
+          <div class="row">
+            <div class="col-md-6 sm">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fas fa-user"></i
+                ></span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="votre nom"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01"
+                  ><i class="fas fa-utensils"></i
+                ></label>
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>Choisir un menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01"
+                  ><i class="fas fa-sort-numeric-up-alt"></i
+                ></label>
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>Nombre de personne</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 sm">
+              <div class="input-group mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="votre mail"
+                />
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fas fa-at"></i
+                ></span>
+              </div>
+
+              <div class="input-group mb-3">
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="votre numéro de téléphone"
+                />
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fas fa-phone"></i
+                ></span>
+              </div>
+
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Adress zone ex: barumbu 54"
+                />
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fas fa-home"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"
+                >Préciser le nombre de personnes</span
+              >
+              <input type="text" class="form-control" placeholder="ex: 25" />
+            </div>
+            <div class="input-group">
+              <span class="input-group-text">Plus d'information</span>
+              <textarea
+                class="form-control"
+                aria-label="With textarea"
+              ></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-3">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-dark"
+                  aria-current="page"
+                  href="#"
+                  >Active</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-3">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-dark"
+                  aria-current="page"
+                  href="#"
+                  >Active</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Disabled</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-3">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark active"
+                  aria-current="page"
+                  href="#"
+                  >Active</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Disabled</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark active"
+                  aria-current="page"
+                  href="#"
+                  >Active</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./asset/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

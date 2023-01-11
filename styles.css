@@ -1,0 +1,50 @@
+.style-navebar {
+  /* background-color: #fff; */
+  /* background-color: black; */
+  background-color: rgba(0, 0, 0, 0.55);
+  font-family: serif;
+  box-shadow: 1px 1px 3px rgb(255, 255, 0.54);
+  z-index: 90;
+}
+.style-navebar .nav-link {
+  border-bottom: 1px solid transparent;
+  transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+.style-navebar .nav-link:hover {
+  padding-bottom: 20px;
+  border-bottom-color: var(--bs-teal);
+}
+.banner,
+.order-from {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(./asset/banniere2.jpg) center center fixed no-repeat;
+  height: 800px;
+  background-size: cover;
+}
+.order-from {
+  height: 500px;
+}
+.banner .banner-desc {
+  color: #fff;
+  font-weight: 400;
+}
+.btn-order {
+  color: var(--bs-teal);
+  border-color: var(--bs-teal);
+  transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active {
+  color: #fff;
+  background-color: var(--bs-teal);
+}
+.style-menu {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(./asset/banniere5.jpg) center center fixed no-repeat;
+  background-size: cover;
+  height: 1200px;
+}
+.style-caroussel-img {
+  height: 20rem;
+  margin: auto;
+}
